@@ -1,0 +1,44 @@
+*{
+    background-color: #333;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+input{
+    border-radius: 5px;
+    background-color: rgb(181, 181, 181);
+}
+form{
+    padding: 20px;
+}
+.container{
+    border: 1px solid red;
+    width: 80%;
+}
+
+.error{
+    margin: 20px;
+    padding: 20px;
+    font-size: 1.2em;
+    border: 2px solid red;
+}
+.contenedorTabla{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid white;
+}
+.tablita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.elementoTabla{
+    border: 1px solid greenyellow;
+    width: 25px;
+    display: flex;
+}.elemento{
+    width: 15px;
+    height: 15px;
+    border: 1px solid red;
+}
